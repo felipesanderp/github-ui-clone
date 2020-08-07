@@ -19,7 +19,7 @@ const App: React.FC = () => {
   return (
    <ThemeProvider theme={currentTheme}>
       <BrowserRouter>
-        <Header />
+        <Header themeName={themeName} setThemeName={setThemeName} />
 
         <Routes>
           <Route path="/" element={<Profile />} />
