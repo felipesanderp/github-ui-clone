@@ -7,6 +7,7 @@ import GlobalStyles from './styles/global';
 import Header from './components/Header';
 import Profile from './pages/Profile';
 import Repo from './pages/Repo';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
@@ -21,7 +22,7 @@ const App: React.FC = () => {
 
       </Routes>
 
-      { /* <Footer /> */ }
+      <Footer />
       <GlobalStyles />
     </BrowserRouter>
   );
